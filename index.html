@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <audio id="backgroundMusic" controls autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <!-- Audiobron https://www.w3schools.com/html/html5_audio.asp -->
+
+    <div id="game-board" class="game-board"></div>
+
+    <div id="overlay" class="overlay">
+        <!--Overlaybron https://www.w3schools.com/howto/howto_css_overlay.asp-->
+
+        <h2 id="boodschap">Boodschap</h2>
+    </div>
+
+    <button class="restart-button" onclick="resetSpel()">Herstart</button>
+
+    <a href="beginscherm.html">Terug naar beginscherm</a>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
+
+
+

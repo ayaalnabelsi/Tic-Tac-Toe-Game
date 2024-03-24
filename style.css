@@ -1,0 +1,98 @@
+body {
+    background-image: url('achtergrondanimatie.mov');
+    height: 90vh;
+    margin: 0;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+a {
+    background-color: darkmagenta;
+    border: 3px solid white;
+    border-radius: 5em;
+    margin: 2em;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#backgroundMusic {
+    background-color: darkmagenta;
+    color: white;
+    border: 3px solid #ccc;
+    width: 300px;
+    height: 5vh;
+    margin-bottom: 20px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+}
+
+.game-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: blue;
+    border: 6px solid white;
+}
+
+/*https://www.w3schools.com/howto/howto_css_shapes.asp*/
+
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: darkmagenta;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.restart-button {
+    background-color: darkmagenta;
+    position: fixed;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    border: 3px solid white;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 2em;
+}
